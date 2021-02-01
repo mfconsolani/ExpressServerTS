@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Lenovo T14",
+        "price": 100.50,
+        "thumbnail": "https://lenovo.at/Lenovo-Model-T14",
+        "id": 1
+    },
+    {
+        "title": "Lenovo T24",
+        "price": 200.60,
+        "thumbnail": "https://lenovo.at/Lenovo-Model-T24",
+        "id": 2
+    },
+    {
+        "title": "Lenovo T34",
+        "price": 300.70,
+        "thumbnail": "https://lenovo.at/Lenovo-Model-T34",
+        "id": 3
+    },
+    {
+        "title": "Lenovo T44",
+        "price": 400.70,
+        "thumbnail": "https://lenovo.at/Lenovo-Model-T44",
+        "id": 4
+    },
+    {
+        "title": "Iphone 1",
+        "price": 150.70,
+        "thumbnail": "https://apple.us/Iphone-Model-1",
+        "id": 5
+    },
+    {
+        "title": "Iphone 2",
+        "price": 250.70,
+        "thumbnail": "https://apple.us/Iphone-Model-2",
+        "id": 6
+    },
+    {
+        "title": "Iphone 3",
+        "price": 350.70,
+        "thumbnail": "https://apple.us/Iphone-Model-3",
+        "id": 7
+    }
+]

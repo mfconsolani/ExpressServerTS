@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node js/app.js", 
-    "dev": "nodemon ts/app.ts", 
-    "build": "tsc -p ."
+    "start": "node js/app.js",
+    "dev": "nodemon app.ts",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",

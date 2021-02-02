@@ -30,7 +30,7 @@ app.get('/items', async (req: Request, res: Response) => {
 
     const productos:Array<Products> = await fileParser('./productos.txt')
 
-    const listadoProd = {
+    const listadoProd: object = {
         items: productos, 
         cantidad: productos.length
     }
@@ -46,7 +46,7 @@ app.get('/item-random', async (req: Request, res: Response) => {
 
     const randNum:number = Math.ceil(Math.random() * (productos.length));
 
-    const randItem = productos.filter((item) => item.id === randNum)
+    const randItem = productos.filter(item => item.id === randNum)
 
     itemCount++
 
@@ -54,7 +54,7 @@ app.get('/item-random', async (req: Request, res: Response) => {
 });
 
 
-app.get('/visitas', (req, res) => {
+app.get('/visitas', (req: Request, res: Response) => {
 
     res.send({visitas: itemsCount, visita: itemCount})
 
